@@ -85,7 +85,7 @@ public class frm01 extends JFrame {
 		double pVarones = varones * 100.0 / total;
 		double pMujeres = mujeres * 100.0 / total;
 
-		DecimalFormat df = new DecimalFormat( "####.##");
+		DecimalFormat df = new DecimalFormat( "###.00");
 		lblPVarones.setText( df.format( pVarones ) + " %" );
 		lblPMujeres.setText( df.format( pMujeres ) + " %" );
 	}
